@@ -8,8 +8,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'post',
-      component: () => import('./views/Post.vue')
+      name: 'yande',
+      component: () => import('./views/Yande.vue')
     }
   ]
 })
